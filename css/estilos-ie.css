@@ -1,0 +1,25 @@
+/*
+	Projeto Casa da Esperança
+	Autor: Marcelo Glacial
+	Início: 07/04/2007
+	Ultima alteracao: 09/04/2007 
+*/
+
+/* Destaque principal
+----------------------------------------------------------*/
+#Principal {
+	background:url(../img/destaque_principal.jpg) left 47px no-repeat;
+}
+#Principal h3 {
+	display:none;
+}
+#Principal img {
+	margin:57px 0 0 12px;
+}
+
+
+/* Extras
+----------------------------------------------------------*/
+#Extras {
+	clear:none;
+}

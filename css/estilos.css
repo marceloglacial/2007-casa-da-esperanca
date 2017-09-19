@@ -1,0 +1,351 @@
+/*
+	Projeto Casa da Esperança
+	Autor: Marcelo Glacial
+	Início: 07/04/2007
+	Ultima alteracao: 09/04/2007 
+*/
+
+/* Reset 
+----------------------------------------------------------*/
+* {
+	margin:0;
+	padding:0;
+	
+	list-style:none;
+	vertical-align:middle;
+}
+img {
+	border:0;
+}
+
+/* Geral 
+----------------------------------------------------------*/
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	color:#666;
+	background:#FFF url(../img/site_degrade.jpg) repeat-x;
+}
+
+h1 {
+	font-size:150%;
+}
+h2, h3, h4, h5, h6 {
+	font-size:120%;
+}
+a {
+	color:#666;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+	color:#3399FF;
+}
+hr {
+	display:none;
+}
+
+
+/* Site
+----------------------------------------------------------*/
+#Site {
+	width:750px;
+	margin:0 auto;
+	background:url(../img/site_fundo.jpg) center 160px no-repeat;
+}
+
+
+/* Navegacao
+----------------------------------------------------------*/
+#Navegacao {
+	display:none;
+}
+
+
+/* Cabecalho
+----------------------------------------------------------*/
+#Cabecalho {
+	float:left;
+	background:url(../img/cabecalho_logo.jpg) bottom right no-repeat;	
+}
+#Cabecalho h1 a {
+	display:block;
+	width:150px;
+	height:156px;
+	
+	font-size:0px;
+	overflow:hidden;
+
+}
+#Cabecalho p {
+	display:none;
+}
+
+
+/* Menu
+----------------------------------------------------------*/
+#Menu {
+	width:150px;
+	float:left;
+	clear:left;
+
+}
+#Menu h2 {
+	display:none;
+}
+#Menu ul {
+	padding:20px 0 0 30px;
+}
+#Menu ul li {
+	margin-bottom:5px;
+}
+#Menu ul li a {
+	display:block;
+	font-size:0px;
+	overflow:hidden;
+	height:0;
+	width:91px;
+	padding-top:16px;
+}
+#Menu ul li a.arte {
+	background:url(../img/menu_arte.jpg);
+}
+#Menu ul li a.artigos {
+	background:url(../img/menu_artigos.jpg);
+	padding-top:20px;
+}
+#Menu ul li a.blog {
+	background:url(../img/menu_blog.jpg);
+	padding-top:20px;
+}
+#Menu ul li a.casa {
+	background:url(../img/menu_casa.jpg);
+}
+#Menu ul li a.casos {
+	background:url(../img/menu_casos.jpg);
+}
+#Menu ul li a.colabore {
+	background:url(../img/menu_colabore.jpg);
+}
+#Menu ul li a.contato {
+	background:url(../img/menu_contato.jpg);
+}
+#Menu ul li a.eventos {
+	background:url(../img/menu_eventos.jpg);
+}
+
+
+
+/* Busca
+----------------------------------------------------------*/
+#Busca {
+	text-align:right;
+	position:relative;
+	top:35px;
+	padding-right:16px;
+	margin-left:150px;
+}
+#Busca fieldset {
+	border:none;
+}
+#Busca input {
+	width:150px;
+	height:16px;
+	margin-right:-4px;
+	padding:0 5px;
+	border:solid 3px #D9E9F9;
+	border-right:none;
+	
+	font-size:100%;
+	color:#999;
+	text-align:right;
+	text-transform:lowercase;
+}
+#Busca legend {
+	display:none;
+}
+#Busca button {
+	width:22px;
+	height:22px;
+	border:none;
+	text-indent:-5000px;
+	background:#FFF url(../img/busca_lupa.jpg) center center no-repeat;
+	border:solid 3px #D9E9F9;
+	border-left:none;
+}
+
+
+/* Conteudo
+----------------------------------------------------------*/
+#Conteudo {
+	margin-top:20px;
+}
+#Conteudo p {
+	padding-bottom:7px;
+}
+div.coluna {
+	width:222px;
+	padding-left:21px;
+	float:left;
+	color:#999;	
+}
+div.coluna a {
+	color:#999;
+}
+div.coluna h3 {
+	display:block;
+	font-size:0px;
+	overflow:hidden;
+	height:0px;
+	padding-top:19px;
+	margin-bottom:7px;
+}
+
+/* Destaque principal
+----------------------------------------------------------*/
+#Principal {
+	margin:0 0 30px 150px;
+	background:url(../img/destaque_principal.jpg) left 49px no-repeat;
+}
+#Principal h2 {
+	display:none;
+}
+#Principal img {
+	width:560px;
+	height:240px;
+	margin:58px 0 0 15px;
+}
+#Principal p {
+	position:absolute;
+	clear:both;
+	top:237px;
+
+	width:240px;
+	height:107px;
+	padding:50px 40px 0 60px;
+	
+	background:url(../img/principal_mascara.png) left top no-repeat;
+	
+	color:#0099FF;
+}
+
+
+/* Destaques secundarios
+----------------------------------------------------------*/
+#Novidades h3 {
+	background:url(../img/destaque_novidades.jpg);
+	width:100px;
+}
+#Novidades a:hover {
+	color:#39C000;
+}
+#Eventos h3 {
+	background:url(../img/destaque_eventos.jpg);
+	width:170px;
+}
+#Eventos a:hover {
+	color:#FF6600;
+}
+#Gente h3 {
+	background:url(../img/destaque_gente.jpg);
+	width:173px;
+}
+#Gente a:hover {
+	color:#990099;
+}
+#Gente img {
+	float:left;
+	background:url(../img/gente_miniatura.jpg);
+	padding:1px 15px 15px 1px;
+	margin-right:5px;
+}
+
+
+/* Extras
+----------------------------------------------------------*/
+#Extras {
+	clear:both;
+	padding-top:10px;
+}
+#Newsletter {
+	width:222px;
+	height:88px;
+	background:url(../img/extras_newsletter.jpg) right top no-repeat;
+}
+#Newsletter legend {
+	display:none;
+}
+#Newsletter fieldset {
+	padding:45px 0 0 15px;
+	border:0;
+}
+#Newsletter input { 
+	border:solid 2px #F5D9FF;
+	border-right:0;
+	width:160px;
+	margin-right:-4px;
+	padding:2px 5px;
+	
+	font-size:100%;
+}
+#Newsletter button {
+	text-indent:-5000px;
+	width:21px;
+	height:21px;
+	border:solid 2px #F5D9FF;
+	border-left:0;
+	background:#FFF url(../img/extras_newsletter_button.jpg) left no-repeat;
+}
+/* Caso queira usar image replacemant 
+#Parceiro h4 a {
+	display:block;
+	height:0px;
+	padding-top:88px;
+	font-size:0px;
+	overflow:hidden;
+	width:222px;
+	background:url(../img/extras_parceiro.jpg) right top no-repeat;
+
+}
+#Participe h4 a {
+	display:block;
+	height:0px;
+	padding-top:88px;
+	font-size:0px;
+	overflow:hidden;
+	width:222px;
+	background:url(../img/extras_participe.jpg) right top no-repeat;
+
+}
+*/
+
+
+/* Parceiros
+----------------------------------------------------------*/
+#Parceiros {
+	clear:both;
+	background:url(../img/parceiros_fundo.jpg);
+	height:94px;
+	text-align:center;
+	margin-top:10px;
+}
+#Parceiros h2 {
+	display:none;
+}
+#Parceiros img {
+	padding-top:40px;
+	margin:0 10px;
+}
+
+/* Rodape 
+----------------------------------------------------------*/
+#Rodape {
+	clear:both;
+	text-align:center;
+	margin:15px 0;
+}
+#Rodape address {	
+	font-style:normal;
+	color:#999;
+	text-transform:uppercase;
+}
