@@ -12,5 +12,7 @@ https://glacial.gitlab.io/2007-casa-da-esperanca
 
 ## Screnshot
 
-![screenshot](design/01-home.png)
+![screenshot](design/01-home.jpg)
 
+
+![screenshot](design/02-internas.jpg)
