@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2007-casa-da-esperanca
+https://marceloglacial.github.io/2007-casa-da-esperanca/front-end/
 
 ## Screnshot
 
